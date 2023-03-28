@@ -1,0 +1,14 @@
+﻿--------------------------------- fastboot模式（超简单） ---------------------------------------
+( 1 ) 	Windows :
+		双击： 	  win.bat
+
+( 2 )	Mac & Linux :
+		终端运行：bash mac_linux.sh
+
+	ChromeOS & FydeOS：
+		打开Linux环境后保持设置里USB连接到电脑，bash mac_linux.sh
+
+
+底包——已刷跳过：https://xiaomirom.com/download/xiaomi-12x-psyche-stable-V13.0.10.0.SLDCNXM/#china-fastboot
+
+其它：刷着不动的，大多是没有驱动，找到adb_tools目录的exe安装
