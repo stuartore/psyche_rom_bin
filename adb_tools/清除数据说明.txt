@@ -1,0 +1,12 @@
+---------------------- 找到clear_data目录 -----------------------
+( 1 )   Windows :
+                双击:		    clear_google_win.bat
+
+( 2 )   Mac & Linux :
+                终端运行：bash clear_google_mac_linux.sh
+
+        ChromeOS & FydeOS：
+                打开Linux环境后保持设置里USB连接到电脑，bash clear_google_mac_linux.sh
+
+
+注： fastboot模式
