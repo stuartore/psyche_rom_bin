@@ -9,7 +9,7 @@ fi
 
 sudo chmod +x ./adb_tools/${adb_str}/*
 if [[ "$(./adb_tools/${adb_str}/adb devices | grep -v 'List of devices')" != "" ]];then
-	adb reboot bootloader
+	./adb_tools/${adb_str}/adb reboot bootloader
 fi
 sudo ./adb_tools/${adb_str}/adb kill-server && ./adb_tools/${adb_str}/adb start-server
 ./adb_tools/${adb_str}/fastboot devices
